@@ -11,6 +11,26 @@
 	<edmx:DataServices>
 		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="Sberbank.annotation.NorthwindModel">
 			<Annotations Target="Metadata.Category">
+				<Annotation Term="Common.SideEffects">
+					<Record Type="Common.SideEffectsType">
+						<PropertyValue Property="SourceProperties">
+							<Collection>
+								<PropertyPath>StatusID</PropertyPath>
+							</Collection>
+						</PropertyValue>
+						<PropertyValue Property="EffectTypes" EnumMember="Common.EffectType/ValueChange"/>
+					</Record>
+				</Annotation>
+				<Annotation Term="UI.Identification">
+					<Collection>
+						<Record Type="UI.DataFieldForAction">
+							<PropertyValue Property="Action" String="NorthwindModel.NorthwindEntities/toActiveStatus"/>
+							<PropertyValue Property="Determining" Bool="true"/>
+							<PropertyValue Property="Label" String="{@i18n&gt;CHANGESTATUS}"/>
+							<PropertyValue Property="InvocationGrouping" EnumMember="UI.OperationGroupingType/Isolated"/>
+						</Record>
+					</Collection>
+				</Annotation>
 				<Annotation Term="UI.FieldGroup" Qualifier="Information">
 					<Record Type="UI.FieldGroupType">
 						<PropertyValue Property="Label" String="{@i18n&gt;PRODUCTAVAILABILITY}"/>

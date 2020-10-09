@@ -17,7 +17,7 @@
 				<Property Name="ResponsibleID" Type="Edm.Int32" Nullable="false"/>
 				<Property Name="ProductAvailability" Type="Edm.Decimal" Nullable="false"/>
 				<Property Name="ProductAvailabilityState" Type="Edm.String" Nullable="false"/>
-				<Property Name="ProductTotal" Type="Edm.Int16" Nullable="false"/>
+				<Property Name="ProductTotal" Type="Edm.String" Nullable="false"/>
 				<NavigationProperty Name="Products" Relationship="NorthwindModel.FK_Products_Categories" FromRole="Categories" ToRole="Products"/>
 				<NavigationProperty Name="Statuses" Relationship="NorthwindModel.FK_Categories_Statuses" FromRole="Categories" ToRole="Statuses"/>
 				<NavigationProperty Name="Responsibles" Relationship="NorthwindModel.FK_Categories_Responsibles" FromRole="Categories" ToRole="Responsibles"/>

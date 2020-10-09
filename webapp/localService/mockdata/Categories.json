@@ -3,12 +3,12 @@
 	"CategoryName": "CategoryName 1",
 	"Description": "Description 1",
 	"Picture": "10000000010000001001010000101101",
-	"Image": "../image/image.svg",
+	"Image": " ../image/image.svg",
 	"StatusID": 1,
 	"ResponsibleID": 1,
 	"ProductAvailability": 9.85,
 	"ProductAvailabilityState": "ProductAvailabilityState 1",
-	"ProductTotal": 2613,
+	"ProductTotal": "ProductTotal 1",
 	"__metadata": {
 		"uri": "Categories(1)",
 		"type": "NorthwindModel.Category"
@@ -28,17 +28,17 @@
 			"uri": "Categories(1)/Responsibles"
 		}
 	}
-},{
+}, {
 	"CategoryID": 2,
 	"CategoryName": "CategoryName 2",
 	"Description": "Description 2",
-	"Picture": "10000000010000001001010000101101",
-	"Image": "../image/image.svg",
+	"Picture": "10001010101010000101010111001011",
+	"Image": " ../image/image.svg",
 	"StatusID": 2,
 	"ResponsibleID": 1,
-	"ProductAvailability": 9.85,
-	"ProductAvailabilityState": "ProductAvailabilityState 1",
-	"ProductTotal": 2613,
+	"ProductAvailability": 416.31,
+	"ProductAvailabilityState": "ProductAvailabilityState 2",
+	"ProductTotal": "ProductTotal 2",
 	"__metadata": {
 		"uri": "Categories(2)",
 		"type": "NorthwindModel.Category"

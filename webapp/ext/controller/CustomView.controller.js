@@ -9,7 +9,7 @@ sap.ui.define([
 		},
 		
 		onAfterRendering: function (parameter) {
-			var q = 1;
+			
 		}
 	});
 
