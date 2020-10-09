@@ -140,10 +140,22 @@
 								"EntitySet": "Categories",
 								"Header": {
 									"Actions": {
-										"ActionCategoriesHeader1": {
-											"id": "ActionCategoriesHeader1button",
-											"text": "{@i18n>ActionCategoriesHeader1}",
-											"press": "onClickActionCategoriesHeader1"
+										"ActionCategoriesHeader2": {
+											"id": "ActionCategoriesHeader2button",
+											"text": "{@i18n>ActionCategoriesHeader2}",
+											"press": "onClickActionCategoriesHeader2"
+										}
+									}
+								},
+								"Sections": {
+									"Products::com.sap.vocabularies.UI.v1.LineItem": {
+										"id": "Products::com.sap.vocabularies.UI.v1.LineItem",
+										"Actions": {
+											"ActionCategoriesSections1": {
+												"id": "ActionCategoriesSections1button",
+												"text": "{@i18n>ActionCategoriesSections1}",
+												"press": "onClickActionCategoriesSections1"
+											}
 										}
 									}
 								}
