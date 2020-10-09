@@ -11,6 +11,15 @@
 	<edmx:DataServices>
 		<Schema xmlns="http://docs.oasis-open.org/odata/ns/edm" Namespace="Sberbank.annotation.NorthwindModel">
 			<Annotations Target="Metadata.Category">
+				<Annotation Term="UI.DataPoint" Qualifier="ProgressBar">
+					<Record Type="UI.DataPointType">
+						<PropertyValue Property="Value" Path="ProductAvailability"/>
+						<PropertyValue Property="Title" String="{@i18n&gt;PRODUCTAVAILABILITY}"/>
+						<PropertyValue Property="TargetValue" Int="100"/>
+						<PropertyValue Property="Criticality" EnumMember="UI.CriticalityType/Positive"/>
+						<PropertyValue Property="Visualization" EnumMember="UI.VisualizationType/Progress"/>
+					</Record>
+				</Annotation>
 				<Annotation Term="UI.SelectionFields">
 					<Collection>
 						<PropertyPath>StatusID</PropertyPath>
@@ -44,6 +53,9 @@
 							<PropertyValue Property="Target" NavigationPropertyPath="Responsibles"/>
 							<PropertyValue Property="Value" Path="Responsibles/MiddleName"/>
 							<PropertyValue Property="Label" String="{@i18n&gt;MIDDLENAME}"/>
+						</Record>
+						<Record Type="UI.DataFieldForAnnotation">
+							<PropertyValue Property="Target" AnnotationPath="@UI.DataPoint#ProgressBar"/>
 						</Record>
 					</Collection>
 				</Annotation>
