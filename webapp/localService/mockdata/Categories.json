@@ -1,0 +1,301 @@
+[{
+	"CategoryID": 9,
+	"CategoryName": "CategoryName 1",
+	"Description": "Description 1",
+	"Picture": "10000000010000001001010000101101",
+	"Image": "Image 1",
+	"StatusID": 416,
+	"ResponsibleID": 6671,
+	"ProductAvailability": 9.85,
+	"ProductAvailabilityState": "ProductAvailabilityState 1",
+	"ProductTotal": 2613,
+	"__metadata": {
+		"uri": "Categories(9)",
+		"type": "NorthwindModel.Category"
+	},
+	"Products": {
+		"__deferred": {
+			"uri": "Categories(9)/Products"
+		}
+	},
+	"Statuses": {
+		"__deferred": {
+			"uri": "Categories(9)/Statuses"
+		}
+	},
+	"Responsibles": {
+		"__deferred": {
+			"uri": "Categories(9)/Responsibles"
+		}
+	}
+}, {
+	"CategoryID": 7960,
+	"CategoryName": "CategoryName 2",
+	"Description": "Description 2",
+	"Picture": "10001010101010000101010111001011",
+	"Image": "Image 2",
+	"StatusID": 2584,
+	"ResponsibleID": 5101,
+	"ProductAvailability": 416.31,
+	"ProductAvailabilityState": "ProductAvailabilityState 2",
+	"ProductTotal": 7638,
+	"__metadata": {
+		"uri": "Categories(7960)",
+		"type": "NorthwindModel.Category"
+	},
+	"Products": {
+		"__deferred": {
+			"uri": "Categories(7960)/Products"
+		}
+	},
+	"Statuses": {
+		"__deferred": {
+			"uri": "Categories(7960)/Statuses"
+		}
+	},
+	"Responsibles": {
+		"__deferred": {
+			"uri": "Categories(7960)/Responsibles"
+		}
+	}
+}, {
+	"CategoryID": 100,
+	"CategoryName": "CategoryName 3",
+	"Description": "Description 3",
+	"Picture": "00101010110011010001101010010000",
+	"Image": "Image 3",
+	"StatusID": 8688,
+	"ResponsibleID": 9523,
+	"ProductAvailability": 6671.92,
+	"ProductAvailabilityState": "ProductAvailabilityState 3",
+	"ProductTotal": 8078,
+	"__metadata": {
+		"uri": "Categories(100)",
+		"type": "NorthwindModel.Category"
+	},
+	"Products": {
+		"__deferred": {
+			"uri": "Categories(100)/Products"
+		}
+	},
+	"Statuses": {
+		"__deferred": {
+			"uri": "Categories(100)/Statuses"
+		}
+	},
+	"Responsibles": {
+		"__deferred": {
+			"uri": "Categories(100)/Responsibles"
+		}
+	}
+}, {
+	"CategoryID": 3324,
+	"CategoryName": "CategoryName 4",
+	"Description": "Description 4",
+	"Picture": "11000010111010001000101010111101",
+	"Image": "Image 4",
+	"StatusID": 591,
+	"ResponsibleID": 4853,
+	"ProductAvailability": 2613.6,
+	"ProductAvailabilityState": "ProductAvailabilityState 4",
+	"ProductTotal": 4053,
+	"__metadata": {
+		"uri": "Categories(3324)",
+		"type": "NorthwindModel.Category"
+	},
+	"Products": {
+		"__deferred": {
+			"uri": "Categories(3324)/Products"
+		}
+	},
+	"Statuses": {
+		"__deferred": {
+			"uri": "Categories(3324)/Statuses"
+		}
+	},
+	"Responsibles": {
+		"__deferred": {
+			"uri": "Categories(3324)/Responsibles"
+		}
+	}
+}, {
+	"CategoryID": 7495,
+	"CategoryName": "CategoryName 5",
+	"Description": "Description 5",
+	"Picture": "01001011110010011000100011001101",
+	"Image": "Image 5",
+	"StatusID": 7826,
+	"ResponsibleID": 3812,
+	"ProductAvailability": 7960.43,
+	"ProductAvailabilityState": "ProductAvailabilityState 5",
+	"ProductTotal": 6152,
+	"__metadata": {
+		"uri": "Categories(7495)",
+		"type": "NorthwindModel.Category"
+	},
+	"Products": {
+		"__deferred": {
+			"uri": "Categories(7495)/Products"
+		}
+	},
+	"Statuses": {
+		"__deferred": {
+			"uri": "Categories(7495)/Statuses"
+		}
+	},
+	"Responsibles": {
+		"__deferred": {
+			"uri": "Categories(7495)/Responsibles"
+		}
+	}
+}, {
+	"CategoryID": 7116,
+	"CategoryName": "CategoryName 6",
+	"Description": "Description 6",
+	"Picture": "11000010001011000010110001100100",
+	"Image": "Image 6",
+	"StatusID": 3189,
+	"ResponsibleID": 2884,
+	"ProductAvailability": 2584.86,
+	"ProductAvailabilityState": "ProductAvailabilityState 6",
+	"ProductTotal": 6673,
+	"__metadata": {
+		"uri": "Categories(7116)",
+		"type": "NorthwindModel.Category"
+	},
+	"Products": {
+		"__deferred": {
+			"uri": "Categories(7116)/Products"
+		}
+	},
+	"Statuses": {
+		"__deferred": {
+			"uri": "Categories(7116)/Statuses"
+		}
+	},
+	"Responsibles": {
+		"__deferred": {
+			"uri": "Categories(7116)/Responsibles"
+		}
+	}
+}, {
+	"CategoryID": 3050,
+	"CategoryName": "CategoryName 7",
+	"Description": "Description 7",
+	"Picture": "00000010100110010010010001111011",
+	"Image": "Image 7",
+	"StatusID": 2114,
+	"ResponsibleID": 865,
+	"ProductAvailability": 5101.49,
+	"ProductAvailabilityState": "ProductAvailabilityState 7",
+	"ProductTotal": 7131,
+	"__metadata": {
+		"uri": "Categories(3050)",
+		"type": "NorthwindModel.Category"
+	},
+	"Products": {
+		"__deferred": {
+			"uri": "Categories(3050)/Products"
+		}
+	},
+	"Statuses": {
+		"__deferred": {
+			"uri": "Categories(3050)/Statuses"
+		}
+	},
+	"Responsibles": {
+		"__deferred": {
+			"uri": "Categories(3050)/Responsibles"
+		}
+	}
+}, {
+	"CategoryID": 4669,
+	"CategoryName": "CategoryName 8",
+	"Description": "Description 8",
+	"Picture": "01000011100011001101111010110110",
+	"Image": "Image 8",
+	"StatusID": 5584,
+	"ResponsibleID": 5582,
+	"ProductAvailability": 7638.68,
+	"ProductAvailabilityState": "ProductAvailabilityState 8",
+	"ProductTotal": 9889,
+	"__metadata": {
+		"uri": "Categories(4669)",
+		"type": "NorthwindModel.Category"
+	},
+	"Products": {
+		"__deferred": {
+			"uri": "Categories(4669)/Products"
+		}
+	},
+	"Statuses": {
+		"__deferred": {
+			"uri": "Categories(4669)/Statuses"
+		}
+	},
+	"Responsibles": {
+		"__deferred": {
+			"uri": "Categories(4669)/Responsibles"
+		}
+	}
+}, {
+	"CategoryID": 2209,
+	"CategoryName": "CategoryName 9",
+	"Description": "Description 9",
+	"Picture": "10000010100101001111110000001001",
+	"Image": "Image 9",
+	"StatusID": 9106,
+	"ResponsibleID": 5632,
+	"ProductAvailability": 100.85,
+	"ProductAvailabilityState": "ProductAvailabilityState 9",
+	"ProductTotal": 517,
+	"__metadata": {
+		"uri": "Categories(2209)",
+		"type": "NorthwindModel.Category"
+	},
+	"Products": {
+		"__deferred": {
+			"uri": "Categories(2209)/Products"
+		}
+	},
+	"Statuses": {
+		"__deferred": {
+			"uri": "Categories(2209)/Statuses"
+		}
+	},
+	"Responsibles": {
+		"__deferred": {
+			"uri": "Categories(2209)/Responsibles"
+		}
+	}
+}, {
+	"CategoryID": 5272,
+	"CategoryName": "CategoryName 10",
+	"Description": "Description 10",
+	"Picture": "01011110011011010101000010100111",
+	"Image": "Image 10",
+	"StatusID": 6084,
+	"ResponsibleID": 3899,
+	"ProductAvailability": 8688.55,
+	"ProductAvailabilityState": "ProductAvailabilityState 10",
+	"ProductTotal": 539,
+	"__metadata": {
+		"uri": "Categories(5272)",
+		"type": "NorthwindModel.Category"
+	},
+	"Products": {
+		"__deferred": {
+			"uri": "Categories(5272)/Products"
+		}
+	},
+	"Statuses": {
+		"__deferred": {
+			"uri": "Categories(5272)/Statuses"
+		}
+	},
+	"Responsibles": {
+		"__deferred": {
+			"uri": "Categories(5272)/Responsibles"
+		}
+	}
+}]
